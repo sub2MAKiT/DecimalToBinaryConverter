@@ -1,0 +1,1 @@
+void main(){long long mainvar=18446744073709551615;scanf("%d",(int*)((&mainvar)+4));while((*(int*)(&mainvar))++<32)printf("%c",((unsigned long long int)(1<<(31-(*(int*)(&mainvar))))<=*(int*)((&mainvar)+4))?((*(int*)((&mainvar)+4)>>(31-(*(int*)(&mainvar))))&1)?0x31:0x30:0);}
